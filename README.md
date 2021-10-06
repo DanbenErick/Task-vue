@@ -2,4 +2,4 @@
 
 Esta realizado con VueJS
 
-[Captura de la web](public/Screenshot.png)
+![Captura de la web](public/Screenshot.png)
