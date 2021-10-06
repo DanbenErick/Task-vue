@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <h1 class="pb-5 pt-5 fw-bold display-5 text-center">Tareas</h1>
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <Formulario />
+      </div>
+      <div class="col-sm-12 col-md-8">
+        <Tareas />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Formulario from './components/Formulario.vue'
+import Tareas from './components/Tareas.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Formulario,
+    Tareas
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
